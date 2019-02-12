@@ -43,7 +43,6 @@ public class MemberDAOimpl implements MemberDAO{
 			user.getPass(),user.getName(),user.getAddr(),user.getMemo(),user.getId()
 		};
 		template.update(sql,param);
-		
 	}
 
 	@Override
